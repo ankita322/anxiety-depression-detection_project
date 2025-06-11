@@ -13,7 +13,7 @@ Anxiety_Depression_Classifier_Project/
 ├── model_training.ipynb # Jupyter notebook with training code
 ├── requirements.txt # List of required Python packages
 ├── README.md # Project overview and usage instructions
-└── demo_screenshots/ # (Optional) App screenshots
+└── demo_screenshots
 
 ```
 ## ⚙️ Technologies Used
@@ -60,6 +60,12 @@ Classes: 0 = Normal, 1 = Anxiety/Depression
 
 
 The SVC model gave the best performance and was selected as the final classifier.
+
+## 🖼️ Demo Screenshot
+
+Here is a preview of the web interface:
+
+![Streamlit App Interface](demo_screenshots/interface.jpg)
 
 ## 📄 License
 This project is for academic and demonstration purposes only.

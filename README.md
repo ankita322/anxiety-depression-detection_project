@@ -1,4 +1,3 @@
-# anxiety-depression-detection_project
 # Anxiety and Depression Detection from Social Media Posts
 
 This project focuses on detecting signs of **anxiety** or **depression** in social media posts using **Machine Learning (ML)** and **Natural Language Processing (NLP)**. The goal is to support early mental health awareness by classifying text posts as either **"Normal"** or **"Anxiety/Depression"**.

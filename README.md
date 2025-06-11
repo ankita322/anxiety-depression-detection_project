@@ -1,2 +1,53 @@
 # anxiety-depression-detection_project
-Anxiety and Depression Detection Based on Social Media Posts
+# Anxiety and Depression Detection from Social Media Posts
+
+This project focuses on detecting signs of **anxiety** or **depression** in social media posts using **Machine Learning (ML)** and **Natural Language Processing (NLP)**. The goal is to support early mental health awareness by classifying text posts as either **"Normal"** or **"Anxiety/Depression"**.
+
+## 📁 Project Structure
+Anxiety_Depression_Classifier_Project/
+│
+├── app.py # Streamlit app for live prediction
+├── best_anxiety_depression_model.pkl # Trained ML model (SVC)
+├── tfidf_vectorizer.pkl # Saved TF-IDF vectorizer
+├── model_training.ipynb # Jupyter notebook with training code
+├── requirements.txt # List of required Python packages
+├── README.md # Project overview and usage instructions
+└── demo_screenshots/ # (Optional) App screenshots
+
+## ⚙️ Technologies Used
+
+- **Python 3.x**
+- **Scikit-learn** for model building
+- **Streamlit** for building the web interface
+- **Pandas** and **NumPy** for data handling
+- **Matplotlib** for plotting 
+- **Joblib** for saving and loading the model
+
+## 🔧 How to Set Up and Run the App
+
+### 1. Clone or Download the Project
+
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+### Install Required Packages
+pip install -r requirements.txt
+
+### Run the Streamlit App
+streamlit run app.py
+
+This will open the app in your browser at http://localhost:8501.
+
+ **Model Details**
+Algorithm Used: Support Vector Classifier (SVC)
+Vectorization: TF-IDF (Term Frequency-Inverse Document Frequency)
+Dataset: Pre-labelled social media posts
+Classes: 0 = Normal, 1 = Anxiety/Depression
+
+**Model Performance**
+Metric     	Score
+Accuracy	 77.77%
+Precision	 75.92%
+Recall	   77.77%
+
+The SVC model gave the best performance and was selected as the final classifier.

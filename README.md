@@ -44,6 +44,18 @@ streamlit run app.py
 ```
 This will open the app in your browser at http://localhost:8501.
 
+## 📂 Dataset
+
+We used a publicly available dataset of social media posts labeled for anxiety and depression.
+
+**Source**: [Anxiety and Depression Detection Dataset on GitHub]
+(https://github.com/swcwang/depression-detection/blob/master/data/tweets_combined.csv)
+
+- Class 0 → Normal  
+- Class 1 → Anxiety/Depression
+
+The dataset was used to train multiple machine learning models, and the best-performing model (SVC) was saved for deployment.
+
 ## 📊 Model Details
 Algorithm Used: Support Vector Classifier (SVC)
 Vectorization: TF-IDF (Term Frequency-Inverse Document Frequency)

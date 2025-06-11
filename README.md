@@ -62,6 +62,9 @@ Vectorization: TF-IDF (Term Frequency-Inverse Document Frequency)
 Dataset: Pre-labelled social media posts
 Classes: 0 = Normal, 1 = Anxiety/Depression
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/ankita322/anxiety-depression-detection_project/blob/main/model_training.ipynb)
+
+
 
 ## ✅ Model Performance
 | Metric    | Score  |

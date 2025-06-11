@@ -3,7 +3,9 @@
 
 This project focuses on detecting signs of **anxiety** or **depression** in social media posts using **Machine Learning (ML)** and **Natural Language Processing (NLP)**. The goal is to support early mental health awareness by classifying text posts as either **"Normal"** or **"Anxiety/Depression"**.
 
-## 📁 Project Structure
+## 📁 Project 
+
+```
 Anxiety_Depression_Classifier_Project/
 │
 ├── app.py # Streamlit app for live prediction
@@ -14,6 +16,7 @@ Anxiety_Depression_Classifier_Project/
 ├── README.md # Project overview and usage instructions
 └── demo_screenshots/ # (Optional) App screenshots
 
+```
 ## ⚙️ Technologies Used
 
 - **Python 3.x**

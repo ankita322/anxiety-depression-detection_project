@@ -31,23 +31,33 @@ git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 
 ### Install Required Packages
+```
 pip install -r requirements.txt
 
+```
 ### Run the Streamlit App
+```
 streamlit run app.py
 
+```
 This will open the app in your browser at http://localhost:8501.
 
- **Model Details**
+## 📊 Model Details
 Algorithm Used: Support Vector Classifier (SVC)
 Vectorization: TF-IDF (Term Frequency-Inverse Document Frequency)
 Dataset: Pre-labelled social media posts
 Classes: 0 = Normal, 1 = Anxiety/Depression
 
-**Model Performance**
-Metric     	Score
-Accuracy	 77.77%
-Precision	 75.92%
-Recall	   77.77%
+
+## ✅ Model Performance
+| Metric    | Score  |
+| --------- | ------ |
+| Accuracy  | 77.77% |
+| Precision | 75.92% |
+| Recall    | 77.77% |
+
 
 The SVC model gave the best performance and was selected as the final classifier.
+
+## 📄 License
+This project is for academic and demonstration purposes only.
